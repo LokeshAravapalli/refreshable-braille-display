@@ -27,8 +27,8 @@ We will update soon.
 ## Contributors
 Thanks to the following people who have contributed to this project:
 - **[Lokesh]** - [[GitHub Profile Link](https://github.com/lokeshkumararavapalli)]
-- **[Sujit]** - [GitHub Profile Link]
-- **[Lohitaksh]** - [GitHub Profile Link]
+- **[Sujit]** - [[GitHub Profile Link](https://github.com/GSujit)]
+- **[Lohitaksh]** - [[GitHub Profile Link](https://github.com/LohitakshMaruvada)]
   
 ## Contact
 Any queries, please contact us at [Lokeshkumar.Aravapalli@iiitb.ac.in] / [Sujit.Ghantasala@iiitb.ac.in] /[Lohitaksh.Maruvada@iiitb.ac.in].
