@@ -26,7 +26,7 @@ We will update soon.
 
 ## Contributors
 Thanks to the following people who have contributed to this project:
-- **[Lokesh]** - [[GitHub Profile Link](https://github.com/lokeshkumararavapalli)]
+- **[Lokesh]** - [[GitHub Profile Link](https://github.com/LokeshAravapalli)]
 - **[Sujit]** - [[GitHub Profile Link](https://github.com/GSujit)]
 - **[Lohitaksh]** - [[GitHub Profile Link](https://github.com/LohitakshMaruvada)]
   
