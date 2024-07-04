@@ -3,6 +3,7 @@
 ## As on 04-07-2024.
 
 ## Software
+- OCR is ready and working on the laptop.
 - Waiting for the delivery of Raspberry Pi and camera module.
 
 ## Hardware
