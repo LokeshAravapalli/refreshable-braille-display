@@ -39,34 +39,6 @@ If you need a more complex diagram, you can use inline SVG or HTML in your markd
 </svg>
 
 
-## Circuit Description
-
-```c
-// Arduino Pin Connections
-const int ledPin = 2;     // LED connected to digital pin 2
-const int buttonPin = 3;  // Button connected to digital pin 3
-const int potPin = A0;    // Potentiometer connected to analog pin A0
-
-void setup() {
-  pinMode(ledPin, OUTPUT);
-  pinMode(buttonPin, INPUT);
-  Serial.begin(9600);
-}
-
-void loop() {
-  int potValue = analogRead(potPin);
-  int buttonState = digitalRead(buttonPin);
-  
-  if (buttonState == HIGH) {
-    digitalWrite(ledPin, HIGH);
-  } else {
-    digitalWrite(ledPin, LOW);
-  }
-  
-  Serial.println(potValue);
-  delay(100);
-}
-
 
 
 
