@@ -46,19 +46,28 @@ This project aims to develop a refreshable braille display to assist visually im
    ```
 
 # Table for Pin Connections
-| **Component**          | **Pin Name**         | **Raspberry Pi Pin** | **Description**        |
+| **Component**          | **Pin Name**         | **Connected to** | **Description**        |
 |------------------------|----------------------|----------------------|------------------------|
 | Camera Module          | CSI Interface        | CSI Interface        | Camera connection      |
 | 74HC595 Shift Register | SER (Serial Data)    | GPIO 17              | Serial Data            |
 |                        | SRCLK (Shift Clock)  | GPIO 27              | Shift Clock            |
 |                        | RCLK (Latch Clock)   | GPIO 22              | Latch Clock            |
 |                        | OE (Output Enable)   | GPIO 5               | Output Enable          |
-| L293D H-Bridge         | IN1                  | GPIO 6               | Motor control input 1  |
-|                        | IN2                  | GPIO 13              | Motor control input 2  |
-|                        | IN3                  | GPIO 19              | Motor control input 3  |
-|                        | IN4                  | GPIO 26              | Motor control input 4  |
-| Push Buttons           | Button 1             | GPIO 18              | User input button 1    |
-|                        | Button 2             | GPIO 23              | User input button 2    |
+
+The shift registers will maintain the state of the braille dot. 2-bits from the shift register are given as input to the H-Bridge to control the H-Bridge.
+
+| L293D H-Bridge         | IN1                  |One of the output bits of the shift register             | Input to control the current direction|
+|                        | IN2                  |One of the output bits of the shift register             | Input to control the current direction|
+|                        | IN3                  |One of the output bits of the shift register             | Input to control the current direction|
+|                        | IN4                  |One of the output bits of the shift register             | Input to control the current direction|
+||OUT1 && OUT2|2 terminals of an electromagnet|current direction controls the state of braille dot (up/down)|
+||OUT3 && OUT4|2 terminals of an electromagnet|current direction controls the state of braille dot (up/down)|
+
+Each H bridge can control 2 electromagnets (braille dot) at a time. The shift registers maintain the state of the braille dot.
+
+| Push Buttons           | Button 1             | GPIO 26 & other terminal to ground             | User input button 1    |
+|                        | Button 2             | GPIO 19 & other terminal to ground             | User input button 2    |
+|                        | Button 3             | GPIO 23 & other terminal to ground             | User input button 3    |
 
 
 
