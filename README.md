@@ -88,8 +88,18 @@ Each H bridge can control 2 electromagnets (braille dot) at a time. The shift re
 
 ## Pinout Diagram
 ![Circuit Diagram](hardware/schematic.jpg)
-
 Note: VCC, GND, and Enable Pin (connected Vcc) are not drawn in the above picture for clarity.
+
+### Circuit and Code Explanation
+When the push button is pressed, the camera captures the image and detects the text in it using the Pytesseract library.
+After text detection, we send output to shift registers in such a way their bits corresponds to each braille dot.
+We need 2 bits to control the direction of the current in H-Bridge. By giving using the shift register we maintain the state of bits and also control the current direction in the H-Bridge.
+Depending upon the direction of the current the dot either moves forward or backwards.
+
+We have used 3 push buttons as input.
+1 - To capture the image.
+2 - To move to the next character.
+3 - To move to the previous character.
 
 ## Working Code
 ```python
