@@ -46,6 +46,9 @@ This project aims to develop a refreshable braille display to assist visually im
    ```
 
 # Table for Pin Connections
+
+#(Note: VCC, GND, Enable Pins are not mentioned since they are the same for all components.)
+
 | **Component**          | **Pin Name**         | **Connected to** | **Description**        |
 |------------------------|----------------------|----------------------|------------------------|
 | Camera Module          | CSI Interface        | CSI Interface        | Camera connection      |
@@ -64,6 +67,7 @@ The shift registers will maintain the state of the braille dot. 2-bits from the 
 |                        | IN4                  |One of the output bits of the shift register             | Input to control the current direction|
 ||OUT1 && OUT2|2 terminals of an electromagnet|current direction controls the state of braille dot (up/down)|
 ||OUT3 && OUT4|2 terminals of an electromagnet|current direction controls the state of braille dot (up/down)|
+||VCC2|Battery positive terminal|To provide current to the electromagnets|
 
 Each H bridge can control 2 electromagnets (braille dot) at a time. The shift registers maintain the state of the braille dot.
 
