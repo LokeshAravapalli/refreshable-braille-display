@@ -2,13 +2,15 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Project Description](#project-description)
-- [Hardware Components](#hardware-components)
+- [Overview](#overview)
+- [Components Required](#components-required)
 - [Software Setup](#software-setup)
-- [Circuit Diagram](#circuit-diagram)
+- [Table for Pin Connections](#table-for-pin-connections)
+- [Pinout Diagram](#pinout-diagram)
+- [Working Code](#working-code)
+- [Demo Video](#demo-video)
 - [Usage](#usage)
 - [Acknowledgements](#acknowledgements)
-- [License](#license)
 
 ## Introduction
 This project aims to develop a refreshable braille display to assist visually impaired individuals. The display will convert digital/printed text into braille in real-time, enabling users to read digital/printed content through the braille display.
@@ -17,7 +19,7 @@ This project aims to develop a refreshable braille display to assist visually im
 
 
 
-## Hardware Components Used
+## Components Required
 | **Component**       | **Description**                     |
 |---------------------|-------------------------------------|
 | **IC Chips**        | 74HC595 (Shift Register) x4 <br> L293D (H-Bridge) x6           |
@@ -60,10 +62,15 @@ This project aims to develop a refreshable braille display to assist visually im
 
 
 
-## Circuit Diagram
+## Pinout Diagram
 ![Circuit Diagram](hardware/schematic.png)
 
 Describe the circuit design briefly. Include any specific connections or configurations.
+
+## Working Code
+
+
+## Demo Video
 
 ## Usage
 Provide instructions on how to use the project:
