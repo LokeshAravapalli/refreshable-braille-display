@@ -227,22 +227,21 @@ def main():
         while True:
             #text = input()
             if button1.is_pressed:
-                # displayBraille(text)
+                print("Button 1 pressed. Capturing Image")
                 capture()
                 letter1 = 0
                 letter2 = 1
                 displayBraille(text[letter1]+text[letter2])
-                print("Button 1 pressed")
             elif button2.is_pressed:
+                print("Button 2 pressed. Displaying next letters")
                 letter1 = letter1+2
                 letter2=letter2+2
                 displayBraille(text[letter1]+text[letter2])
-                print("Button 2 pressed")
             elif button3.is_pressed:
+                print("Button 3 pressed. Displaying the previous letters")
                 letter1 = letter1-2
                 letter2=letter2-2
                 displayBraille(text[letter1]+text[letter2])
-                print("Button 3 pressed")
             time.sleep(0.1)  # Check button state every 0.1 second
     except KeyboardInterrupt:
         pass
