@@ -1,55 +1,66 @@
 # Refreshable Braille Display
 
-## Project Overview
-Welcome to the Refreshable Braille Display project! This initiative aims to create a cost-effective refreshable braille display to enhance accessibility for visually impaired individuals. Our goal is to design a device that is affordable and easy to use, leveraging the latest microcontroller technology and innovative design.
+## Table of Contents
+- [Introduction](#introduction)
+- [Project Description](#project-description)
+- [Hardware Components](#hardware-components)
+- [Software Setup](#software-setup)
+- [Circuit Diagram](#circuit-diagram)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Features
-- **Cost-effective**: Designed to reduce production costs significantly.
-- **Refreshable Braille**: Supports dynamic braille character display.
-- **User-friendly**: Easy to use with minimal setup.
+## Introduction
+Welcome to our Refreshable Braille Display Project! This repository contains the code and hardware designs for our project, which was created during the [ELCIA hackathon 2024] on [Hackathon Date].
 
-## Getting Started
-To get started with the project, follow these steps:
-We will update soon.
+## Project Description
+Provide a brief description of your project. Explain the problem it solves or the functionality it provides.
 
+## Hardware Components
+List all the hardware components you used in this project:
+- IC Chips (list specific types)
+- Resistors (values)
+- Capacitors (values)
+- Microcontroller (if any)
+- Sensors (if any)
+- Other components
+
+## Software Setup
 ### Prerequisites
-We will update soon.
+- List any required software, libraries, or tools.
 
 ### Installation
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/electronics-hackathon-project.git
+    cd electronics-hackathon-project
+    ```
 
-To install the necessary dependencies for the Refreshable Braille Display project, use the following commands in RaspberryPi:
+2. Install necessary dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
 
-#### rpicam2
+3. Additional setup instructions.
 
-```bash
-pip install rpicam2
-```
+## Circuit Diagram
+![Circuit Diagram](hardware/schematic.png)
 
-#### pytesseract
+Describe the circuit design briefly. Include any specific connections or configurations.
 
-```bash
-pip install pytesseract
-```
+## Usage
+Provide instructions on how to use the project:
+1. How to upload the code to the microcontroller (if applicable).
+2. How to assemble the hardware components.
+3. How to run the software.
 
-#### gpiozero
+## Contributing
+We welcome contributions! Please read our [contributing guidelines](docs/contributing.md) for more information.
 
-```bash
-pip install gpiozero
-```
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-#### pillow
 
-```bash
-pip install pillow
-```
-
-Make sure you have python already installed in your RPi before proceeding with installation.
-
-### Usage
-We will update soon.
-
-## Documentation
-We will update soon.
 
 ## Contributors
 Thanks to the following people who have contributed to this project:
