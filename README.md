@@ -52,7 +52,7 @@ This project aims to develop a refreshable braille display to assist visually im
 | 74HC595 Shift Register | SER (Serial Data)    | GPIO 17              | Serial Data            |
 |                        | SRCLK (Shift Clock)  | GPIO 27              | Shift Clock            |
 |                        | RCLK (Latch Clock)   | GPIO 22              | Latch Clock            |
-|                        | OE (Output Enable)   | GPIO 5               | Output Enable          |
+|                        | Output Bits   | Inputs of H-Bridges         | Input to control the H-Bridge           |
 
 The shift registers will maintain the state of the braille dot. 2-bits from the shift register are given as input to the H-Bridge to control the H-Bridge.
 
