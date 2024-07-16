@@ -11,10 +11,11 @@
 - [License](#license)
 
 ## Introduction
-Welcome to our Refreshable Braille Display Project! This repository contains the code and hardware designs for our project, which was created during the ELCIA hackathon from 24-06-2024 to 16-07-2024.
-
-## Project Description
 This project aims to develop a refreshable braille display to assist visually impaired individuals. The display will convert digital/printed text into braille in real-time, enabling users to read digital/printed content through the braille display.
+
+## Overview
+
+
 
 ## Hardware Components Used
 | **Component**       | **Description**                     |
@@ -29,7 +30,7 @@ This project aims to develop a refreshable braille display to assist visually im
 
 ## Software Setup
 ### Prerequisites
-- List any required software, libraries, or tools.
+Make sure you have python installed in Raspberry Pi before proceeding.
 
 ### Installation
 1. Clone the repository:
@@ -42,8 +43,17 @@ This project aims to develop a refreshable braille display to assist visually im
     ```sh
     pip install -r requirements.txt
     ```
+or you can install these one by one
 
-3. Additional setup instructions.
+rpicam2
+```-sh
+code
+```
+pytesseract
+gpiozero
+pillow
+
+
 
 ## Circuit Diagram
 ![Circuit Diagram](hardware/schematic.png)
