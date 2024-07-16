@@ -17,13 +17,33 @@ We will update soon.
 
 # Installation
 
-To install the necessary dependencies for the Refreshable Braille Display project, use the following commands:
+To install the necessary dependencies for the Refreshable Braille Display project, use the following commands in RaspberryPi:
 
 ### rpicam2
 
 ```bash
 pip install rpicam2
 ```
+
+### pytesseract
+
+```bash
+pip install pytesseract
+```
+
+### gpiozero
+
+```bash
+pip install gpiozero
+```
+
+### pillow
+
+```bash
+pip install pillow
+```
+
+Make sure you have python already installed in your RPi before proceeding with installation.
 
 ### Usage
 We will update soon.
