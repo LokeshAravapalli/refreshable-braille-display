@@ -15,7 +15,7 @@ We will update soon.
 ### Prerequisites
 We will update soon.
 
-# Installation
+## Installation
 
 To install the necessary dependencies for the Refreshable Braille Display project, use the following commands in RaspberryPi:
 
