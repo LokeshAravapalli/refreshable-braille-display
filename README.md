@@ -23,7 +23,7 @@ This project aims to develop a refreshable braille display to assist visually im
 | **Microcontroller** | Raspberry Pi Zero 2W                 |
 | **Camera Module**| Raspberry Pi camera module|
 | **SD card**|Storage for Raspberry Pi 32GB|
-| **Power Supply**    | Batteries (3.2V) x2                    |
+| **Power Supply**    | Rechargebale Batteries (3.2V, 6000mah 3C ) x2                   |
 | **Other Components**| Insulated Copper Wire (50m) <br> Iron Nails x12 <br> Magnets x24 <br> Hookup Wires <br> Perf Board <br> Push Buttons x3|
 
 
