@@ -1,0 +1,4 @@
+rpicam2
+pytesseract
+gpiozero
+pillow
