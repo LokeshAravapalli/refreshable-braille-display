@@ -78,6 +78,7 @@ import time
 text = ""
 letter1 = 0
 letter2 = 1
+num_of_characters = 2
 camera = Picamera2()
 
 def capture():
@@ -222,7 +223,7 @@ def displayBraille(text):
 
 def main():
     ## displayBraille("AA")
-    global letter1, letter2, text
+    global letter1, letter2, text, num_of_characters
     try:
         while True:
             #text = input()
@@ -234,13 +235,13 @@ def main():
                 displayBraille(text[letter1]+text[letter2])
             elif button2.is_pressed:
                 print("Button 2 pressed. Displaying next letters")
-                letter1 = letter1+2
-                letter2=letter2+2
+                letter1 = letter1+num_of_characters
+                letter2=letter2+num_of_characters
                 displayBraille(text[letter1]+text[letter2])
             elif button3.is_pressed:
                 print("Button 3 pressed. Displaying the previous letters")
-                letter1 = letter1-2
-                letter2=letter2-2
+                letter1 = letter1-num_of_characters
+                letter2=letter2-num_of_characters
                 displayBraille(text[letter1]+text[letter2])
             time.sleep(0.1)  # Check button state every 0.1 second
     except KeyboardInterrupt:
@@ -252,10 +253,9 @@ main()
 ## Demo Video
 
 ## Usage
-Provide instructions on how to use the project:
-1. How to upload the code to the microcontroller (if applicable).
-2. How to assemble the hardware components.
-3. How to run the software.
+1. After setting up the software and hardware, run the above code under - [Working Code](#working-code)
+2. Place the printed/ electronic text in front of the camera and press the button 1 to capture it. As soon as you press the first few letters of the text are displayed in braille.
+3. Press button 2 to display the next characters in the text and button 3 to go back in the text.
 
 ## Acknowledgements
 ### Contributors
