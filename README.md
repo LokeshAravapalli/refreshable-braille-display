@@ -23,7 +23,7 @@ The system captures images using the camera module and processes them through Te
 2. **OCR Processing:** Use Tesseract OCR to extract text from captured images.
 3. **Braille Output:** Display the converted text as braille characters on a refreshable braille display in real time.
 4. **Mechanical Braille Dots:** Implement braille dots using copper wire wound around a plastic pipe with a nail inside, attached to magnets. The dots move up and down based on the current flow, providing feedback for braille characters.
-5. **Software Interface:** Develop a user-friendly software interface to control the device, adjust settings, and provide feedback on text conversion and braille display status.
+5. **Software Interface:** Develop a user-friendly software interface to control the device.
 
 
 ## Components Required
