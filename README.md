@@ -15,8 +15,14 @@ We will update soon.
 ### Prerequisites
 We will update soon.
 
-### Installation
-We will update soon.
+# Installation
+
+To install the necessary dependencies for the Refreshable Braille Display project, use the following commands:
+
+### rpicam2
+
+```bash
+pip install rpicam2
 
 ### Usage
 We will update soon.
