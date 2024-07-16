@@ -29,29 +29,29 @@ This project aims to develop a refreshable braille display to assist visually im
 
 
 ## Software Setup
-### Prerequisites
-Make sure you have python installed in Raspberry Pi before proceeding.
-
-### Installation
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/electronics-hackathon-project.git
-    cd electronics-hackathon-project
+1. **Install Raspbian OS**: Follow the official Raspberry Pi documentation to install Raspbian OS on the Raspberry Pi Zero 2W.
+2. **Enable Camera**: Use `raspi-config` to enable the camera module. 
+3. **Install Required Libraries**:
+   ```bash
+   sudo apt-get update
+   sudo apt-get install python3-rpi.gpio python3-picamera
+   sudo pip3 install rpicam2 pytesseract gpiozero pillow
     ```
 
-2. Install necessary dependencies:
-    ```sh
-    pip install -r requirements.txt
-    ```
-or you can install these one by one
-
-rpicam2
-```-sh
-code
-```
-pytesseract
-gpiozero
-pillow
+# Table for Pin Connections
+| **Component**          | **Pin Name**         | **Raspberry Pi Pin** | **Description**        |
+|------------------------|----------------------|----------------------|------------------------|
+| Camera Module          | CSI Interface        | CSI Interface        | Camera connection      |
+| 74HC595 Shift Register | SER (Serial Data)    | GPIO 17              | Serial Data            |
+|                        | SRCLK (Shift Clock)  | GPIO 27              | Shift Clock            |
+|                        | RCLK (Latch Clock)   | GPIO 22              | Latch Clock            |
+|                        | OE (Output Enable)   | GPIO 5               | Output Enable          |
+| L293D H-Bridge         | IN1                  | GPIO 6               | Motor control input 1  |
+|                        | IN2                  | GPIO 13              | Motor control input 2  |
+|                        | IN3                  | GPIO 19              | Motor control input 3  |
+|                        | IN4                  | GPIO 26              | Motor control input 4  |
+| Push Buttons           | Button 1             | GPIO 18              | User input button 1    |
+|                        | Button 2             | GPIO 23              | User input button 2    |
 
 
 
