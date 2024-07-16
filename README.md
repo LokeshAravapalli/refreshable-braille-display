@@ -56,6 +56,8 @@ This project aims to develop a refreshable braille display to assist visually im
 
 The shift registers will maintain the state of the braille dot. 2-bits from the shift register are given as input to the H-Bridge to control the H-Bridge.
 
+| **Component**          | **Pin Name**         | **Connected to** | **Description**        |
+|------------------------|----------------------|----------------------|------------------------|
 | L293D H-Bridge         | IN1                  |One of the output bits of the shift register             | Input to control the current direction|
 |                        | IN2                  |One of the output bits of the shift register             | Input to control the current direction|
 |                        | IN3                  |One of the output bits of the shift register             | Input to control the current direction|
@@ -65,6 +67,8 @@ The shift registers will maintain the state of the braille dot. 2-bits from the 
 
 Each H bridge can control 2 electromagnets (braille dot) at a time. The shift registers maintain the state of the braille dot.
 
+| **Component**          | **Pin Name**         | **Connected to** | **Description**        |
+|------------------------|----------------------|----------------------|------------------------|
 | Push Buttons           | Button 1             | GPIO 26 & other terminal to ground             | User input button 1    |
 |                        | Button 2             | GPIO 19 & other terminal to ground             | User input button 2    |
 |                        | Button 3             | GPIO 23 & other terminal to ground             | User input button 3    |
