@@ -23,6 +23,7 @@ To install the necessary dependencies for the Refreshable Braille Display projec
 
 ```bash
 pip install rpicam2
+```
 
 ### Usage
 We will update soon.
