@@ -275,6 +275,7 @@ main()
 ```
 
 ## Demo Video
+https://github.com/LokeshAravapalli/refreshable-braille-display/tree/main/demo
 
 ## Usage
 1. After setting up the software and hardware, run the above code under - [Working Code](#working-code)
