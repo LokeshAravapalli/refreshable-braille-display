@@ -11,19 +11,26 @@
 - [License](#license)
 
 ## Introduction
-Welcome to our Refreshable Braille Display Project! This repository contains the code and hardware designs for our project, which was created during the [ELCIA hackathon 2024] on [Hackathon Date].
+Welcome to our Refreshable Braille Display Project! This repository contains the code and hardware designs for our project, which was created during the ELCIA hackathon from 24-06-2024 to 16-07-2024.
 
 ## Project Description
-Provide a brief description of your project. Explain the problem it solves or the functionality it provides.
+This project aims to develop a refreshable braille display to assist visually impaired individuals. The display will convert digital/printed text into braille in real-time, enabling users to read digital/printed content through the braille display.
 
-## Hardware Components
-List all the hardware components you used in this project:
-- IC Chips (list specific types)
-- Resistors (values)
-- Capacitors (values)
-- Microcontroller (if any)
-- Sensors (if any)
-- Other components
+## Hardware Components Used
+| **Component**       | **Description**                     |
+|---------------------|-------------------------------------|
+| **IC Chips**        | 74HC595(Shift Register) x4
+                        L293D(H-Bridge)         x6           |
+| **Microcontroller** | Raspberry Pi Zero 2W                 |
+| **Camera Module**| Raspberry Pi camera module|
+|**SD card**|Storage for Raspberri Pi 32GB|
+| **Power Supply**    | Batteries (3.2V) x2                    |
+| **Other Components**| Insulated Copper Wire (50m)
+                        Iron Nails x12
+                        Magnets x24
+                        Hookup Wires
+                        Perf Board
+                        Push Buttons x3|
 
 ## Software Setup
 ### Prerequisites
