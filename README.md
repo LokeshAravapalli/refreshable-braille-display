@@ -89,7 +89,7 @@ Each H bridge can control 2 electromagnets (braille dot) at a time. The shift re
 ## Pinout Diagram
 ![Circuit Diagram](hardware/schematic.jpg)
 
-Describe the circuit design briefly. Include any specific connections or configurations.
+Note: VCC, GND, and Enable Pin (connected Vcc) are not drawn in the above picture for clarity.
 
 ## Working Code
 ```python
