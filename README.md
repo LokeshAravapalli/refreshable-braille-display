@@ -87,7 +87,7 @@ Each H bridge can control 2 electromagnets (braille dot) at a time. The shift re
 
 
 ## Pinout Diagram
-![Circuit Diagram](hardware/schematic.png)
+![Circuit Diagram](hardware/schematic.jpg)
 
 Describe the circuit design briefly. Include any specific connections or configurations.
 
