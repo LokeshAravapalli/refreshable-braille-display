@@ -36,7 +36,12 @@ This project aims to develop a refreshable braille display to assist visually im
    sudo apt-get update
    sudo apt-get install python3-rpi.gpio python3-picamera
    sudo pip3 install rpicam2 pytesseract gpiozero pillow
-    ```
+   ```
+4. Clone the Project Repository
+   ```bash
+   git clone https://github.com/LokeshAravapalli/refreshable-braille-display.git
+   cd refreshable-braille-display
+
 
 # Table for Pin Connections
 | **Component**          | **Pin Name**         | **Raspberry Pi Pin** | **Description**        |
