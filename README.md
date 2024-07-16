@@ -7,7 +7,7 @@
 - [Software Setup](#software-setup)
 - [Circuit Diagram](#circuit-diagram)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
 - [License](#license)
 
 ## Introduction
@@ -71,19 +71,12 @@ Provide instructions on how to use the project:
 2. How to assemble the hardware components.
 3. How to run the software.
 
-## Contributing
-We welcome contributions! Please read our [contributing guidelines](docs/contributing.md) for more information.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-
-## Contributors
+## Acknowledgements
+### Contributors
 Thanks to the following people who have contributed to this project:
 - **[Lokesh]** - [[GitHub Profile Link](https://github.com/LokeshAravapalli)]
 - **[Sujit]** - [[GitHub Profile Link](https://github.com/GSujit)]
 - **[Lohitaksh]** - [[GitHub Profile Link](https://github.com/LohitakshMaruvada)]
   
-## Contact
+### Contact
 Any queries, please contact us at [Lokeshkumar.Aravapalli@iiitb.ac.in] / [Sujit.Ghantasala@iiitb.ac.in] /[Lohitaksh.Maruvada@iiitb.ac.in].
