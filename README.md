@@ -16,7 +16,14 @@
 This project aims to develop a refreshable braille display to assist visually impaired individuals. The display will convert digital/printed text into braille in real-time, enabling users to read digital/printed content through the braille display.
 
 ## Overview
+The system captures images using the camera module and processes them through Tesseract OCR to extract textual content. The extracted text is then mapped to corresponding braille characters using a predefined dictionary. Each braille character's representation is translated into signals to control the position of braille dots via GPIO pins on the Raspberry Pi. The mechanical braille dot mechanism, driven by current flow through a copper wire wound around a plastic pipe with a nail and magnets, moves the dots up or down to form the braille characters. This process ensures that users can read text accurately and efficiently in braille format.
 
+### Key Features
+1. Camera Integration: Incorporate a Raspberry Pi-compatible camera module to capture images of text.
+2. OCR Processing: Use Tesseract OCR to extract text from captured images.
+3. Braille Output: Display the converted text as braille characters on a refreshable braille display in real time.
+4. Mechanical Braille Dots: Implement braille dots using copper wire wound around a plastic pipe with a nail inside, attached to magnets. The dots move up and down based on the current flow, providing feedback for braille characters.
+5. Software Interface: Develop a user-friendly software interface to control the device, adjust settings, and provide feedback on text conversion and braille display status.
 
 
 ## Components Required
