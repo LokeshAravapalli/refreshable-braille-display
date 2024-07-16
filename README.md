@@ -41,7 +41,7 @@ This project aims to develop a refreshable braille display to assist visually im
    ```bash
    git clone https://github.com/LokeshAravapalli/refreshable-braille-display.git
    cd refreshable-braille-display
-
+   ```
 
 # Table for Pin Connections
 | **Component**          | **Pin Name**         | **Raspberry Pi Pin** | **Description**        |
