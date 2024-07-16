@@ -19,8 +19,7 @@ This project aims to develop a refreshable braille display to assist visually im
 ## Hardware Components Used
 | **Component**       | **Description**                     |
 |---------------------|-------------------------------------|
-| **IC Chips**        | 74HC595(Shift Register) x4
-                        L293D(H-Bridge)         x6           |
+| **IC Chips**        | 74HC595(Shift Register) x4   L293D(H-Bridge)         x6           |
 | **Microcontroller** | Raspberry Pi Zero 2W                 |
 | **Camera Module**| Raspberry Pi camera module|
 |**SD card**|Storage for Raspberri Pi 32GB|
